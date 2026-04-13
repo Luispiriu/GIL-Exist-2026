@@ -5,7 +5,7 @@ import pandas as pd
 import torch
 
 MODEL_ID = "meta-llama/Llama-4-Scout-17B-16E-Instruct"
-TOKEN = "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"
+TOKEN = "hf_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
 processor = AutoProcessor.from_pretrained(MODEL_ID, token=TOKEN)
 model = AutoModelForImageTextToText.from_pretrained(
